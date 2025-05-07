@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<nav>
+  <a href="homePage.html">Home</a>
+  <a class="active" href="hangman.html">Hangman</a>
+  <a href="ticTacToe.html">Tic Tac Toe</a>
+</nav>
+
+
+<body>
+  <script src="script.js"></script>
+
+  <h1 id="title">Hangman</h1>
+
+  <img src = "hangman_img.png" id="hanger">
+
+  <h1 id="blanks"></h1>
+
+  <center>
+    <input id = "wordInput" type="text" placeholder="Enter word here">
+    <button id="enter" class="submit" onclick="enterWord()">Enter</button>
+  </center>
+
+  <h1 id = "winLoss"></h1>
+
+  <center>
+    <button id="A" onclick="checkLetter('A');">A</button>
+    <button id="B" onclick="checkLetter('B')">B</button>
+    <button id="C" onclick="checkLetter('C')">C</button>
+    <button id="D" onclick="checkLetter('D')">D</button>
+    <button id="E" onclick="checkLetter('E')">E</button>
+    <button id="F" onclick="checkLetter('F')">F</button>
+    <button id="G" onclick="checkLetter('G')">G</button>
+    <button id="H" onclick="checkLetter('H')">H</button>
+    <button id="I" onclick="checkLetter('I')">I</button>
+    <button id="J" onclick="checkLetter('J')">J</button>
+    <button id="K" onclick="checkLetter('K')">K</button>
+    <button id="L" onclick="checkLetter('L')">L</button>
+    <button id="M" onclick="checkLetter('M')">M</button>
+    <button id="N" onclick="checkLetter('N')">N</button>
+    <button id="O" onclick="checkLetter('O')">O</button>
+    <button id="P" onclick="checkLetter('P')">P</button>
+    <button id="Q" onclick="checkLetter('Q')">Q</button>
+    <button id="R" onclick="checkLetter('R')">R</button>
+    <p></p>
+    <button id="S" onclick="checkLetter('S')">S</button>
+    <button id="T" onclick="checkLetter('T')">T</button>
+    <button id="U" onclick="checkLetter('U')">U</button>
+    <button id="V" onclick="checkLetter('V')">V</button>
+    <button id="W" onclick="checkLetter('W')">W</button>
+    <button id="X" onclick="checkLetter('X')">X</button>
+    <button id="Y" onclick="checkLetter('Y')">Y</button>
+    <button id="Z" onclick="checkLetter('Z')">Z</button>
+  </center>
+
+  <p><br></p>
+
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+
+</html>
